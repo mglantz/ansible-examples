@@ -15,6 +15,7 @@
         data:
           the_answer: 100
         aggregate: no
+      register: the_answer
       when: true
 
     - name: display result
